@@ -64,6 +64,24 @@ html, body {
   color: blue;
 }
 
+@media (max-width: 800px) {
+  #navbar-container {
+    flex-direction: column;
+  }
+
+  #navref {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #navref ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: none;
+  }
+}
+
 #profile {
   padding: 2.5%;
   width: 25%;
